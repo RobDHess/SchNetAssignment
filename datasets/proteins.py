@@ -111,7 +111,7 @@ class ProteinDataset(InMemoryDataset):
         return ["data.pt"]
 
     def download(self):
-        gdown.download_folder(url=self.url, output=self.raw_dir)
+        gdown.download_folder(url=self.url, output=os.path.join(self.root, "raw"))
 
     def process(self):
         """Converts the raw data into torch-geometric's internal data format."""
