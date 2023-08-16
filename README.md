@@ -3,5 +3,5 @@ Hi, this is a quick implementation of SchNet for a protein dataset. It uses Face
 
 You can run the code using ```python main.py```. This will run the base architecture described in the original paper. See the ```main.py``` file for optional arguments. 
 
-Let me know if you have any questions. 
+The conda environment can be found in ```environment.yml```. Let me know if you have any questions. 
 
